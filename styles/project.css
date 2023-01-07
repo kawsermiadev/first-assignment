@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* start header section */
+.header{
+    background-image: url("../images/banner/banner3.png");
+    height: 708px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-section{
+    float: right;
+    text-align: right;
+    margin-top: 276px;
+    margin-right: 210px;
+}
+.header-section >h1, >p{
+    text-align: right;
+}
+h1{
+    font-weight: 700;
+    font-style: 65px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.header-section p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.header-section button{
+    font-size: 20px;
+    padding: 20px 25px;
+    color: #005FAC;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 0;
+}
+/* end header section */
+
+/* start main section */
+.img-area{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.text-area{
+    text-align: left;
+    margin-left: 700px;
+    margin-top: 250px;
+}
+.text-area >h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.text-area >p{
+    font-weight: 400;
+    font-size: 16px;
+    margin:20px 0;
+    line-height: 20px;
+}
+.text-area i{
+    color: #16D887;
+}
+/* myplan-area */
+.myplan-area h2{
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.catagories-area{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 250px;
+}
+.catagories{
+    margin-right: 90px;
+}
+.catagories img, h3, p{
+    margin-bottom: 10px;
+}
+.call-area h3{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+}
+.call-area button{
+    padding: 20px 36px;
+    color: #005FAC;
+    border-radius: 2px;
+    border: 0;
+    margin: -5px;
+}
+.call-area{
+    background-image: url(../images/gradient1.png);
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.call-area{
+    background-image: url(../images/watch.png);
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-bottom: 50px;
+}
+.text{
+    margin-left: 30px;
+    padding: 30px;
+    margin-top: 50px;;
+}
+/* end main section */
+/* start footer section */
+footer{
+    display: flex;
+    color:#FFFFFF;
+    background: #000;
+}
+.future{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.future h3{
+    font-weight: 700;
+    font-size: 45px;
+}
+.future .fa-i i{
+    font-size: 40px;
+    margin-right: 20px;
+}
+.fa-facebook{
+    background-color: #006AFF;
+}
+.fa-square-twitter{
+    background-color: #1DA1F2;
+}
+.fa-youtube{
+    background: #FF0000;
+}
+.subscribe{
+    margin-top: 60px;
+}
+.subscribe h4, input, button{
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+.subscribe h4{
+    font-size: ;
+}
+.subscribe button{
+    padding: 20px 36px;
+    background-color: #006AFF;
+}
+.subscribe input, button{
+    padding: 21px 21px 21px 21px;
+    border-radius: 5px;
+    border: 0;
+}
